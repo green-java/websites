@@ -1,0 +1,373 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:gold;
+    text-shadow: 12px;
+  }  
+.bar{
+    border: 2px solid  rgb(122, 122, 122);
+    background-color:rgb(233, 211, 85);
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.bar p{
+    letter-spacing: 0.1cap;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.nav{
+    position: absolute;
+    right: 0;
+    margin: 12px;
+}
+.nav a{
+    text-decoration: none;
+    /* padding-right: 7px; */
+    text-decoration-line: none;
+    font-size: 1rem;
+    display: inline-block;
+    margin-inline: 10px;
+    font-weight: bold;
+    color: black;
+}
+.nav a:hover{
+    border-radius: 4px;
+    padding: 10px;
+    background-color:rgb(226, 241, 14);
+    border: 1px gray;
+}
+.nav a:active{
+    background-color: rgb(211, 47, 69);
+}
+.logo{ 
+   
+    float: left;
+    outline-color: black;
+}
+/* main css */
+.main 
+{
+    font-family: "Great Vibes", cursive;
+    display: inline-grid;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    font-weight: bolder;
+    text-shadow: 4px 4px yellow;
+    color:rgb(15, 14, 14);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    display: block;
+    position: relative;
+}
+.t1,.a,.s,.t2,.y,.f,.o,.O,.d{
+    display: inline-block;
+}
+.span1{
+    position: relative;
+    left:-60px;
+}
+.span2{
+    position: relative;
+    left: -30px;
+}
+ .span1,.span2 
+ {
+    font-size: 10rem;
+    transform: translateY(-28px) rotate(351deg);
+ }
+.t1{
+    transform: translate(40px, 80px) rotate(-30deg);
+}
+.a{
+    transform:translate(30px, 35px) rotate(356deg);
+}
+.s{
+    transform: translate(40px, 30px) rotate(0deg);
+}
+.t2{
+    transform: translate(49px, 70px) rotate(5deg);
+}
+.y{
+    transform: translate(45px, 110px) rotate(1deg);
+}
+.f{
+    transform: translate(20px, 63px) rotate(1deg);
+
+}
+.o{
+    transform: translate(10px, 80px) rotate(353deg);
+}
+.O{
+    transform: translate(4px, 100px) rotate(358deg);
+}
+.d{
+    transform: translate(5px, 90px) rotate(344deg);
+}
+.anime {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    outline-color: yellow;
+}
+.wrapping{
+        display: flex;
+        justify-content: flex-end;       
+        top: 270px;
+        border-radius: 8px;
+       
+}
+
+
+/* page 2 stylings */
+
+.page2 h2{
+    text-align: center;
+    padding:50px;
+    text-transform: uppercase;
+    background-color:bisque;
+    margin-bottom: 10px;
+    /* background-color: lightcyan; */
+}
+.page2 .ourhotel{
+   width:90%;
+   height:600px;
+   border: 2px solid;
+   color:yellow;
+   background-image: url('/images/abt2.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   position: relative;
+   margin: auto;
+   animation: slide 16s infinite;
+}
+/* .innerslide{
+    width: 150vmin;
+    display: flex;
+    animation: slide 16s infinite;
+} */
+.oteldetail img {
+    width:500px;
+    height:500px;
+    position: absolute;
+    float: left;
+}
+@keyframes slide {
+    0%{
+       background-image: url('../images/abt2.jpg');
+    }
+    10%{
+       background-image: url('../images/abt2.jpg');
+    }
+    20%{
+        background-image: url('../images/abt4.jpg');
+    }
+    40%{
+        background-image: url('../images/abt1.jpg');
+    }
+    60%{
+        background-image: url('../images/about4.jpeg');   
+    }
+    80%{
+        background-image: url('../images/app1.jpeg');   
+    }
+    100%{
+           background-image: url('../images/diningabout.jpg');
+    }
+}
+.content{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding:35px;
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+.content .child img{
+    
+}
+.content ul{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    justify-content:center ;
+}
+.content li{
+   background-color: rgb(241, 237, 238);
+   width: 350px;
+   height: 300px;
+   display: flex;
+    flex-flow:column wrap;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 12px;
+    align-items: center;
+}
+.content .child .thrdchild{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.content .child .thrdchild .thrdimg{
+    margin: 10px;
+}
+.content b{
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+
+button{
+    padding:8px;
+    font-size: 1rem;
+    font-weight: 700;
+    color:black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: rgb(144, 43, 153);
+    color: white;
+}
+#celebrationarea{
+   display: grid;
+   position: relative;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr;
+}
+#celebrationarea h3{
+    /* background-color: bisque; */
+   text-align: center;
+   width: auto;
+   margin: 5px;
+   padding: 6px;
+   font-size: 1.3rem;
+   background-color: gainsboro;
+}
+#celebrationarea .bday{
+
+    display: flex;
+    gap: 8px;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+#celebrationarea .wday{
+    display: flex;
+    gap: 8px;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+#celebrationarea .wday .wday1{
+    background:url('/images/diningabout.jpg') center/cover;
+      width: 500px;
+    height: 400px;
+}
+
+#celebrationarea .butn{
+    position: absolute;
+    bottom: 13%;
+    left: 45%;
+    padding: 8px;
+    color: lightgrey;
+    cursor: pointer;
+}
+.wday img{
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+
+.bday img{
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+
+#celebrationarea .wday p,.bday p{
+   font-size: 1.2rem;
+   text-align: justify;
+   width: 500px;
+   margin:auto
+}
+/* footer style */
+#footer .foot{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    /* padding: 3px; */
+   
+}
+#footer .foot p{
+    margin-top: 20px;
+    padding: 7px;
+}
+#footer{
+    margin-top: 20px;
+    background-color:bisque;
+    padding: 30px;
+}
+#footer address{
+
+    margin: 30px;
+    font-size: 1.1rem;
+}
+#footer .foot .icon{
+    display: grid;
+    column-gap: 20px;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: space-between;
+}
+
+#footer .solid{
+    grid-area: call;
+    color:green;
+    padding: 4px;
+    margin: 2px;
+}
+#footer .face{
+    grid-area: face;
+    color:blue;
+    padding: 4px;
+    margin: 2px;
+}
+#footer .inst{
+    grid-area: insta;
+    color:rgb(171, 33, 206);
+    background-color: blueviolet;
+    padding: 4px;
+    margin: 2px;
+}
+#footer .mail{
+    grid-area: mail;
+    color:rgb(13, 25, 63);
+    padding: 4px;
+    margin: 2px;
+}
