@@ -1,0 +1,159 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+    background-color: bisque;
+    height: 70px;
+    
+    color: black;
+    
+  }
+  header h2{
+    color: rgb(94, 70, 9);
+    font-weight: 900;
+    padding: 10px;
+  }
+  nav a {
+    background-color: bisque;
+    margin-inline: 20px;
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: rgb(100, 33, 89);
+    color:#fff;
+    width: 19px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  figure {
+    width: 200px;
+    float: left;
+    box-sizing: border-box;
+  }
+  figure img{
+    border: 2px solid rgb(32, 32, 32);
+  }
+  figure figcaption{
+    color: grey;
+    text-align: center;
+  }
+  .item-menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom:12px;
+  }
+  /* ____________________ 1st dark chocolates______________________________________________ */
+  #section1 h2,#section2 h2,#section3 h2,#section4 h2,#section5 h2,#section6 h2{
+     padding: 25px;
+     background-color: beige;
+     text-transform: uppercase;
+     font-size: 1.2rem;
+  }
+ 
+  .dark {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr; */
+    box-sizing: border-box;
+    gap: 10px;
+  }
+  .Lindt {
+    /* display: grid;
+    padding: 12px;
+    grid-template-rows: repeat(autofit, minmax(350px, 1fr)); */
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-flow: column wrap;
+    gap:10px;
+    position: relative;
+    border: 1px gainsboro solid;
+  }
+  .Lindt:hover {
+    border: 2px rgb(102, 99, 99) solid;
+  }
+  .Lindt .butn{
+    display: flex;
+        flex-flow: row nowrap;
+        gap: 10px;
+        align-items: center;
+  }
+  .Lindt .cart{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(53, 52, 52);
+  }
+  .Lindt .LindtLink{
+    margin-left: 10px;
+  }
+  .Lindt img{
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  .Lindt .rating{
+    font-size: 0.9rem;
+  }
+
+
+
+  /* section 2 styling */
+
+
+  .img {
+    display: flex;
+    justify-content: center;
+  }
+  .heart {
+    margin: 9px;
+    display: flex;
+    justify-content: end;
+  }
+  .des {
+    display: grid;
+    margin: 5px;
+    font-size: 1.2rem;
+  }
+  .butn {
+    float: left;
+    margin: 4px;
+  }
+  .Buy {
+    padding-left: 3px;
+    font-size: 1.5rem;
+  }
+  .cut {
+    text-decoration: line-through;
+    align-items: center;
+    color: grey;
+    font-size: 1.3rem;
+  }
+  .cart {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    justify-content: end;
+  }
+  .rating {
+    color: white;
+    background-color: green;
+    font-size: 12px;
+    padding: 4px;
+    border: 2px green solid;
+    border-radius: 10px;
+    margin: 10px;
+  }
+   
